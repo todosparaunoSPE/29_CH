@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16428abd7be68296999d4658b1fe3530 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16428abd7be68296999d4658b1fe3530" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16428abd7be68296999d4658b1fe3530 = L.map(
+                "map_16428abd7be68296999d4658b1fe3530",
+                {
+                    center: [19.338968353684212, -98.19939514736843],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_78412d8d40b4ff7884dfeef67c1ce1fb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_78412d8d40b4ff7884dfeef67c1ce1fb.addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var marker_c7bab0adbb38beac77647cc4fc12a2b1 = L.marker(
+                [19.3239078, -98.2318888],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_e79accc74ecad3e5fe019f19a2a7c786 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7bab0adbb38beac77647cc4fc12a2b1.setIcon(icon_e79accc74ecad3e5fe019f19a2a7c786);
+        
+    
+        var popup_c9aa58c63cd04c9b132ab964d08cb8c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a33cb7d9e50ca5c9de26b38d40a1c0b = $(`<div id="html_1a33cb7d9e50ca5c9de26b38d40a1c0b" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Tlaxcala</div>`)[0];
+                popup_c9aa58c63cd04c9b132ab964d08cb8c8.setContent(html_1a33cb7d9e50ca5c9de26b38d40a1c0b);
+            
+        
+
+        marker_c7bab0adbb38beac77647cc4fc12a2b1.bindPopup(popup_c9aa58c63cd04c9b132ab964d08cb8c8)
+        ;
+
+        
+    
+    
+            var marker_b99317010e9977cfce83ff44ee68bd42 = L.marker(
+                [19.3203195, -98.2077986],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_131aa3d3be60e5980cc76874e48715d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b99317010e9977cfce83ff44ee68bd42.setIcon(icon_131aa3d3be60e5980cc76874e48715d6);
+        
+    
+        var popup_fdc23ea69eba63539481f8c8f3f4e1fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01c9a0385ad17160981b19a996d9747b = $(`<div id="html_01c9a0385ad17160981b19a996d9747b" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Tlaxcala</div>`)[0];
+                popup_fdc23ea69eba63539481f8c8f3f4e1fd.setContent(html_01c9a0385ad17160981b19a996d9747b);
+            
+        
+
+        marker_b99317010e9977cfce83ff44ee68bd42.bindPopup(popup_fdc23ea69eba63539481f8c8f3f4e1fd)
+        ;
+
+        
+    
+    
+            var marker_5dcaaaf8aed16dd774c4cb5ee7c410de = L.marker(
+                [19.4147072, -98.1372056],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_60fd25b979c9da2ed87d0e4ea37d6ab1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5dcaaaf8aed16dd774c4cb5ee7c410de.setIcon(icon_60fd25b979c9da2ed87d0e4ea37d6ab1);
+        
+    
+        var popup_b1bf8a8f07b47dd57087eba1987e7f23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fa67f55cd194b43a84d5f6718337bb8 = $(`<div id="html_2fa67f55cd194b43a84d5f6718337bb8" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Tlaxcala</div>`)[0];
+                popup_b1bf8a8f07b47dd57087eba1987e7f23.setContent(html_2fa67f55cd194b43a84d5f6718337bb8);
+            
+        
+
+        marker_5dcaaaf8aed16dd774c4cb5ee7c410de.bindPopup(popup_b1bf8a8f07b47dd57087eba1987e7f23)
+        ;
+
+        
+    
+    
+            var marker_17be5db07a8464d7bd098f39910f413b = L.marker(
+                [19.3246045, -98.2339656],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_0960ed243734a8d7aec4c71abffcc9e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17be5db07a8464d7bd098f39910f413b.setIcon(icon_0960ed243734a8d7aec4c71abffcc9e6);
+        
+    
+        var popup_6a0ac62a339b69c805c8f43106df9e58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f219939997d679333e4e4b9c7741869d = $(`<div id="html_f219939997d679333e4e4b9c7741869d" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Tlaxcala</div>`)[0];
+                popup_6a0ac62a339b69c805c8f43106df9e58.setContent(html_f219939997d679333e4e4b9c7741869d);
+            
+        
+
+        marker_17be5db07a8464d7bd098f39910f413b.bindPopup(popup_6a0ac62a339b69c805c8f43106df9e58)
+        ;
+
+        
+    
+    
+            var marker_a9bd9bdb979d222a7a877f2e5d341b06 = L.marker(
+                [19.3131517, -98.1956906],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_6958a496071a109585bdf7eb7b63f957 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a9bd9bdb979d222a7a877f2e5d341b06.setIcon(icon_6958a496071a109585bdf7eb7b63f957);
+        
+    
+        var popup_3fdfdc92204c877654969fa499b6c718 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_754c0ebe0072b20f6f58501254ab8b36 = $(`<div id="html_754c0ebe0072b20f6f58501254ab8b36" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_3fdfdc92204c877654969fa499b6c718.setContent(html_754c0ebe0072b20f6f58501254ab8b36);
+            
+        
+
+        marker_a9bd9bdb979d222a7a877f2e5d341b06.bindPopup(popup_3fdfdc92204c877654969fa499b6c718)
+        ;
+
+        
+    
+    
+            var marker_7dce11a7fa6497e531b3996005390e08 = L.marker(
+                [19.3209611, -98.2361297],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_37e8fc1ba77c014487b65f23390e7978 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7dce11a7fa6497e531b3996005390e08.setIcon(icon_37e8fc1ba77c014487b65f23390e7978);
+        
+    
+        var popup_427a1a3474e472ab8036e819c94f2754 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9528583b3c2d1c60894ea921d998dcdb = $(`<div id="html_9528583b3c2d1c60894ea921d998dcdb" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_427a1a3474e472ab8036e819c94f2754.setContent(html_9528583b3c2d1c60894ea921d998dcdb);
+            
+        
+
+        marker_7dce11a7fa6497e531b3996005390e08.bindPopup(popup_427a1a3474e472ab8036e819c94f2754)
+        ;
+
+        
+    
+    
+            var marker_6d17015256b0fa09a12d21699b28368a = L.marker(
+                [19.3108404, -97.9251893],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_92195356c098e0bb04e12bd9fe0203b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6d17015256b0fa09a12d21699b28368a.setIcon(icon_92195356c098e0bb04e12bd9fe0203b6);
+        
+    
+        var popup_873b74598a568e140408474977786e64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55ef54b6474f6f00d8dc21395dd0221a = $(`<div id="html_55ef54b6474f6f00d8dc21395dd0221a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_873b74598a568e140408474977786e64.setContent(html_55ef54b6474f6f00d8dc21395dd0221a);
+            
+        
+
+        marker_6d17015256b0fa09a12d21699b28368a.bindPopup(popup_873b74598a568e140408474977786e64)
+        ;
+
+        
+    
+    
+            var marker_1cf81d842391a4958b036f76f3a07db6 = L.marker(
+                [19.3180202, -98.2212896],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_1e97c2f6826421781f3da941469f0a9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1cf81d842391a4958b036f76f3a07db6.setIcon(icon_1e97c2f6826421781f3da941469f0a9f);
+        
+    
+        var popup_550cd617c5af3e4983f930997a23cc0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9647427030419df6ae0e5a0e3034674f = $(`<div id="html_9647427030419df6ae0e5a0e3034674f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_550cd617c5af3e4983f930997a23cc0d.setContent(html_9647427030419df6ae0e5a0e3034674f);
+            
+        
+
+        marker_1cf81d842391a4958b036f76f3a07db6.bindPopup(popup_550cd617c5af3e4983f930997a23cc0d)
+        ;
+
+        
+    
+    
+            var marker_ad05a785410e6db5a9823ad9761e80d7 = L.marker(
+                [19.3129672, -98.1943367],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_894c445f10680f17c51d346a97d96fbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ad05a785410e6db5a9823ad9761e80d7.setIcon(icon_894c445f10680f17c51d346a97d96fbe);
+        
+    
+        var popup_3c41bb8789fceef103f823553f4f3a98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29eafcb27b1365c900eb0dc73b40399d = $(`<div id="html_29eafcb27b1365c900eb0dc73b40399d" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_3c41bb8789fceef103f823553f4f3a98.setContent(html_29eafcb27b1365c900eb0dc73b40399d);
+            
+        
+
+        marker_ad05a785410e6db5a9823ad9761e80d7.bindPopup(popup_3c41bb8789fceef103f823553f4f3a98)
+        ;
+
+        
+    
+    
+            var marker_97993128a54b891fb9fb7cc23d26f582 = L.marker(
+                [19.4146574, -98.1404313],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_769985bb35bb3d18ff6f70bf293d880b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_97993128a54b891fb9fb7cc23d26f582.setIcon(icon_769985bb35bb3d18ff6f70bf293d880b);
+        
+    
+        var popup_75cf0c2fa80f0ed56c6c5213d3bd12b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf640e02ab7db286596b54689858454c = $(`<div id="html_bf640e02ab7db286596b54689858454c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_75cf0c2fa80f0ed56c6c5213d3bd12b2.setContent(html_bf640e02ab7db286596b54689858454c);
+            
+        
+
+        marker_97993128a54b891fb9fb7cc23d26f582.bindPopup(popup_75cf0c2fa80f0ed56c6c5213d3bd12b2)
+        ;
+
+        
+    
+    
+            var marker_e1039758bc546213ce682b1980bd5882 = L.marker(
+                [19.2159175, -98.2417004],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_ea40af0b8ad6a7e0dcd92e02bf4b96a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e1039758bc546213ce682b1980bd5882.setIcon(icon_ea40af0b8ad6a7e0dcd92e02bf4b96a7);
+        
+    
+        var popup_c59bec3739a26c5849409b549d5d7421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dfa61c9bcf8dafc303d0003c9e10de5 = $(`<div id="html_6dfa61c9bcf8dafc303d0003c9e10de5" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_c59bec3739a26c5849409b549d5d7421.setContent(html_6dfa61c9bcf8dafc303d0003c9e10de5);
+            
+        
+
+        marker_e1039758bc546213ce682b1980bd5882.bindPopup(popup_c59bec3739a26c5849409b549d5d7421)
+        ;
+
+        
+    
+    
+            var marker_fcff2cc1a3a832f36975e5b935039994 = L.marker(
+                [19.3126161, -97.9222558],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_6ecd1934100bdc12c210ce82d3a84505 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fcff2cc1a3a832f36975e5b935039994.setIcon(icon_6ecd1934100bdc12c210ce82d3a84505);
+        
+    
+        var popup_8655c300d6d4577267ce0746d8d34105 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_286460476e21b76385cce60089293825 = $(`<div id="html_286460476e21b76385cce60089293825" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_8655c300d6d4577267ce0746d8d34105.setContent(html_286460476e21b76385cce60089293825);
+            
+        
+
+        marker_fcff2cc1a3a832f36975e5b935039994.bindPopup(popup_8655c300d6d4577267ce0746d8d34105)
+        ;
+
+        
+    
+    
+            var marker_16d81de638ca5ac0e30cdc894d568d31 = L.marker(
+                [19.5897488, -98.5771895],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_2e0d47748dc5c840e5d8569e1a005d21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16d81de638ca5ac0e30cdc894d568d31.setIcon(icon_2e0d47748dc5c840e5d8569e1a005d21);
+        
+    
+        var popup_627011153f5c665b378ae19f9d06cfd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab7631731bf04e93d06fb883cf589b4a = $(`<div id="html_ab7631731bf04e93d06fb883cf589b4a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_627011153f5c665b378ae19f9d06cfd3.setContent(html_ab7631731bf04e93d06fb883cf589b4a);
+            
+        
+
+        marker_16d81de638ca5ac0e30cdc894d568d31.bindPopup(popup_627011153f5c665b378ae19f9d06cfd3)
+        ;
+
+        
+    
+    
+            var marker_53f231c55633d3f0347ba92495dba5a7 = L.marker(
+                [19.3321904, -98.1953276],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_cae67990b6c8ef7df2f2c06513e3a406 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_53f231c55633d3f0347ba92495dba5a7.setIcon(icon_cae67990b6c8ef7df2f2c06513e3a406);
+        
+    
+        var popup_483e28d134e9eaee58a15426b7745fe8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68335a0bbb3bd986d1606cecfddf2850 = $(`<div id="html_68335a0bbb3bd986d1606cecfddf2850" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Tlaxcala</div>`)[0];
+                popup_483e28d134e9eaee58a15426b7745fe8.setContent(html_68335a0bbb3bd986d1606cecfddf2850);
+            
+        
+
+        marker_53f231c55633d3f0347ba92495dba5a7.bindPopup(popup_483e28d134e9eaee58a15426b7745fe8)
+        ;
+
+        
+    
+    
+            var marker_d441e248084eb186fe47d32ad3d508cb = L.marker(
+                [19.3170278, -98.2186318],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_167704a96ee67b61f13742b08751ae2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d441e248084eb186fe47d32ad3d508cb.setIcon(icon_167704a96ee67b61f13742b08751ae2c);
+        
+    
+        var popup_29e5ed550a4e2564e0daffca65b75827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5c3ff92573fbfe7f6856f946c1c76bb = $(`<div id="html_b5c3ff92573fbfe7f6856f946c1c76bb" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Tlaxcala</div>`)[0];
+                popup_29e5ed550a4e2564e0daffca65b75827.setContent(html_b5c3ff92573fbfe7f6856f946c1c76bb);
+            
+        
+
+        marker_d441e248084eb186fe47d32ad3d508cb.bindPopup(popup_29e5ed550a4e2564e0daffca65b75827)
+        ;
+
+        
+    
+    
+            var marker_e8e430c0f5b29ebb293b14513edf5486 = L.marker(
+                [19.3252766, -98.2285625],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_ae7e65ecd5f0e39f3bf717650dd18ffa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e8e430c0f5b29ebb293b14513edf5486.setIcon(icon_ae7e65ecd5f0e39f3bf717650dd18ffa);
+        
+    
+        var popup_cfb4febb3ce2f08466cf125e4ec7609d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_847fe95f582d5f52f92994faf632cb7e = $(`<div id="html_847fe95f582d5f52f92994faf632cb7e" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Tlaxcala</div>`)[0];
+                popup_cfb4febb3ce2f08466cf125e4ec7609d.setContent(html_847fe95f582d5f52f92994faf632cb7e);
+            
+        
+
+        marker_e8e430c0f5b29ebb293b14513edf5486.bindPopup(popup_cfb4febb3ce2f08466cf125e4ec7609d)
+        ;
+
+        
+    
+    
+            var marker_0709d6d029915ae9e912df33bb5affe2 = L.marker(
+                [19.3185363, -98.2363375],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_55a4e532789a57ba6e620b6dd997a0dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0709d6d029915ae9e912df33bb5affe2.setIcon(icon_55a4e532789a57ba6e620b6dd997a0dc);
+        
+    
+        var popup_e29bafe6fc1d0275c8af137d0318c953 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10c73d737313c7a8b60780db4de2a68d = $(`<div id="html_10c73d737313c7a8b60780db4de2a68d" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Tlaxcala</div>`)[0];
+                popup_e29bafe6fc1d0275c8af137d0318c953.setContent(html_10c73d737313c7a8b60780db4de2a68d);
+            
+        
+
+        marker_0709d6d029915ae9e912df33bb5affe2.bindPopup(popup_e29bafe6fc1d0275c8af137d0318c953)
+        ;
+
+        
+    
+    
+            var marker_6f214415722db905cb2a5e3c22827615 = L.marker(
+                [19.3162847, -98.2468713],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_1fbc9a660fbdf642911f2f2e41049011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6f214415722db905cb2a5e3c22827615.setIcon(icon_1fbc9a660fbdf642911f2f2e41049011);
+        
+    
+        var popup_8c1c0738bb512cbad7ac33652755f0d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_428c6e6a80595cb88510609a68f7225a = $(`<div id="html_428c6e6a80595cb88510609a68f7225a" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Tlaxcala</div>`)[0];
+                popup_8c1c0738bb512cbad7ac33652755f0d6.setContent(html_428c6e6a80595cb88510609a68f7225a);
+            
+        
+
+        marker_6f214415722db905cb2a5e3c22827615.bindPopup(popup_8c1c0738bb512cbad7ac33652755f0d6)
+        ;
+
+        
+    
+    
+            var marker_0259a312821fe4144f5d3c65ae45d2eb = L.marker(
+                [19.33866352, -98.1977056],
+                {
+}
+            ).addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+    
+            var icon_1d551d2d4c4adad655b88628bc54918b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0259a312821fe4144f5d3c65ae45d2eb.setIcon(icon_1d551d2d4c4adad655b88628bc54918b);
+        
+    
+        var popup_94c7f0060a422291d6c124949434c7c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e7b18b6b9dc8a7a2452a396a5671bb2 = $(`<div id="html_9e7b18b6b9dc8a7a2452a396a5671bb2" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Tlaxcala</div>`)[0];
+                popup_94c7f0060a422291d6c124949434c7c8.setContent(html_9e7b18b6b9dc8a7a2452a396a5671bb2);
+            
+        
+
+        marker_0259a312821fe4144f5d3c65ae45d2eb.bindPopup(popup_94c7f0060a422291d6c124949434c7c8)
+        ;
+
+        
+    
+    
+            tile_layer_78412d8d40b4ff7884dfeef67c1ce1fb.addTo(map_16428abd7be68296999d4658b1fe3530);
+        
+</script>
+</html>
